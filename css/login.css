@@ -1,0 +1,42 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.login input {
+  height: 30px;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.login button,
+.login a {
+  background: #a9f1a0;
+  border: 1px solid #153819;
+  color: #153819;
+  border-radius: 10px;
+  transition: all 0.3s;
+  height: 30px;
+  width: 20%;
+  text-align: center;
+  font-size: 12px;
+}
+.login a {
+  height: 20px;
+}
+.login button:hover,
+.login a:hover {
+  background: #90d3a1;
+}
+.container {
+  height: 500px;
+}
+.izm {
+  min-width: 100px;
+}
+.profile {
+  display: flex;
+  justify-content: left;
+}

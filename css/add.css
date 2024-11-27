@@ -1,0 +1,12 @@
+.findspetite {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+.findspetite img {
+  max-width: 30%;
+}
+.container {
+  height: 900px;
+}

@@ -1,0 +1,7 @@
+.buttons button {
+  min-width: 50px;
+  margin-left: 10px;
+}
+.container {
+  height: 800px;
+}

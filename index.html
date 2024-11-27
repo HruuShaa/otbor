@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <div class="logo">
+          <img class="imglogo" src="./images/icons/logo.png" alt="" />
+        </div>
+        <nav>
+          <a href="./register.html" class="navitem">Регистрация</a>
+          <a href="./login.html" class="navitem">Личный кабинет</a>
+          <a href="./pet.html" class="navitem">Добавить</a>
+          <a href="#otzivi" class="navitem">Отзывы</a>
+          <a href="./search.html" class="navitem">Поиск</a>
+        </nav>
+      </header>
+      <!-- ПОИСК ЖИВОТНОГО -->
+      <div class="searchform">
+        <p class="zaq">Поиск животного</p>
+        <input
+          class="inputsearch"
+          type="text"
+          placeholder="Введите вид животного"
+        />
+        <button class="searchbutton">Найти</button>
+      </div>
+      <!-- ФОРМА ПОИСКА ЖИВОТНОГО -->
+      <div id="formapoiska" class="poisk">
+        Поиск
+        <input type="text" placeholder="Район" />
+        <input id="vivodvid" type="text" placeholder="Вид животного" />
+        <a href="./search.html"><button class="searchbuton">Поиск</button></a>
+        <button class="close">Закрыть</button>
+      </div>
+      <!-- СЛАЙДЕР -->
+      <div class="slider">
+        <button class="sliderbutton leftbtn"><</button>
+        <div class="slideritem">
+          <img src="./pets/Бисквит/бисквит_1.jpg" alt="" />
+          <p class="zaq">Кот</p>
+          <p>
+            Выпустили погулять во дворик нашего дома. Вечером не вернулся.
+            Пожалуйста помогите его найти!
+          </p>
+          <button class="podrobnee button">Подробнее</button>
+        </div>
+
+        <button class="sliderbutton rightbtn">></button>
+      </div>
+      <!-- ФАКТЫ О КОМПАНИИ -->
+      <div class="facts">
+        <p class="zaq">Факты о компании и сайте:</p>
+        <div class="factsitems">
+          <section>
+            <img class="factimg" src="./images/firstcat.jpeg" alt="" />
+            <p>✔ Помогли найти более 500 животных</p>
+          </section>
+          <section>
+            <img class="factimg" src="./images/twofacts.jpeg" alt="" />
+            <p>✔ Более трех лет способствуем возвращению питомцев к хозяевам</p>
+          </section>
+          <section>
+            <img class="factimg" src="./images/threefacts.jpeg" alt="" />
+            <p>✔ Все услуги оказываются бесплатно</p>
+          </section>
+        </div>
+      </div>
+      <!-- НАЙДЕННЫЕ ЖИВОТНЫЕ -->
+      <div class="findspets">
+        <p class="zaq">Найденные животные</p>
+        <div class="findspetitems">
+          <section>
+            <img class="findpetimg" src="./pets/Герда/герда_2.jpg" alt="" />
+            <div class="infofindpet">
+              <p class="zaq-pet">Герда</p>
+              <p>Адрес: ул. Пушкина д.29</p>
+              <p>Дата нахождения: 05.10.2024</p>
+              <p class="zareg">Зарегестрированный</p>
+            </div>
+          </section>
+          <section>
+            <img class="findpetimg" src="./pets/Боня/боня_1.jpg" alt="" />
+            <div class="infofindpet">
+              <p class="zaq-pet">Боня</p>
+              <p>Адрес: ул. Пушкина д.29</p>
+              <p>Дата нахождения: 05.10.2024</p>
+              <p class="gost">Гость</p>
+            </div>
+          </section>
+          <section>
+            <img class="findpetimg" src="./pets/Бисквит/бисквит_2.jpg" alt="" />
+            <div class="infofindpet">
+              <p class="zaq-pet">Бисквит</p>
+              <p>Адрес: ул. Пушкина д.29</p>
+              <p>Дата нахождения: 05.10.2024</p>
+              <p class="zareg">Зарегестрированный</p>
+            </div>
+          </section>
+          <section>
+            <img src="./pets/Жорик/жорик_2.jfif" alt="" class="findpetimg" />
+            <div class="infofindpet">
+              <p class="zaq-pet">Жоржик</p>
+              <p>Адрес: ул. Пушкина д.29</p>
+              <p>Дата нахождения: 05.10.2024</p>
+              <p class="zareg">Зарегестрированный</p>
+            </div>
+          </section>
+          <section>
+            <img class="findpetimg" src="./pets/Нюша/нюша_2.jpg" alt="" />
+            <div class="infofindpet">
+              <p class="zaq-pet">Пеппа</p>
+              <p>Адрес: ул. Пушкина д.29</p>
+              <p>Дата нахождения: 05.10.2024</p>
+              <p class="gost">Гость</p>
+            </div>
+          </section>
+          <section>
+            <img class="findpetimg" src="./pets/Юна/юна_1.jpeg" alt="" />
+            <div class="infofindpet">
+              <p class="zaq-pet">Федя</p>
+              <p>Адрес: ул. Пушкина д.29</p>
+              <p>Дата нахождения: 05.10.2024</p>
+              <p class="gost">Гость</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- ОТЗЫВЫ -->
+      <div class="otzivi" id="otzivi">
+        <p class="zaq">Отзывы</p>
+        <div class="otzivitems">
+          <button class="otzivibtn nazad"><</button>
+          <section>
+            <p class="name">
+              <img class="polz" src="./images/polz.jpg" alt="" />Владислав
+            </p>
+            <img class="otzimg" src="./pets/Боня/боня_2.jpg" alt="" />
+            <p>5/5<img class="zvezda" src="./images/zvezda.jpeg" alt="" /></p>
+            <p>
+              Думал уже никогда не найду! Спасибо большое организации
+              "Зоодружок"
+            </p>
+            <p>06.10.2024</p>
+          </section>
+
+          <button class="otzivibtn">></button>
+        </div>
+      </div>
+      <!-- ПОДПИСКИ -->
+      <div class="subscribe">
+        <p class="zaq">Подписка</p>
+        <input class="email" type="text" placeholder="Ваша почта" />
+        <div class="soglasie">
+          <input type="checkbox" />
+          <p class="sogl">Согласие на обратку ваших персональных данных</p>
+        </div>
+        <button>Подписаться</button>
+      </div>
+      <!-- ПОДВАЛ -->
+      <footer>
+        <div class="leftchast">
+          <p>+7 (800)123-45-67</p>
+          <p>mail@newlife.ru</p>
+        </div>
+
+        <div class="rightchast">
+          <nav>
+            <a class="itemnav" href="#">Главная</a>
+            <a class="itemnav" href="#">Регистрация</a>
+            <a class="itemnav" href="#">Авторизация</a>
+            <a class="itemnav" href="#">Личный кабинет</a>
+            <a class="itemnav" href="#">Найдено животное</a>
+            <a class="itemnav" href="#">Поиск</a>
+          </nav>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const forma = document.getElementById("formapoiska");
+      const button = document.querySelector(".searchbutton");
+      const input = document.querySelector(".inputsearch");
+      const close = document.querySelector(".close");
+      const vid = document.getElementById("vivodvid");
+      button.onclick = () => {
+        console.log("нажатие");
+        forma.classList.remove("poiks");
+        forma.classList.add("open");
+        vid.value = input.value;
+      };
+      close.onclick = () => {
+        forma.classList.remove("open");
+        forma.classList.add("poisk");
+      };
+    </script>
+  </body>
+</html>
